@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 300px;
+    height: 450px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.block{
+    width: 600px;
+    height: 450px;
+    display: flex;
+}
+.left{
+    width: 300px;
+}
+.right{
+    width: 300px;
+    transition: 2s;
+    overflow: auto;
+}
+.right p{
+    margin-top: 20px;
+    transition: 1s;
+    background-color: blue;
+}
+

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mymodal{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.modal-content{
+    background-color: white;
+    width: 40%;
+    margin: 2% auto;
+    padding: 30px;
+    animation: animat 0.5s ease;
+    border-radius: 25px;
+}
+#close{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 25px;
+    color: white;
+}
+#btn{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+
+@keyframes animat{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
